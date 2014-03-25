@@ -140,7 +140,7 @@ if (!function_exists('curl_init')) {
  print '<tr><td colspan="3" style="color:red;font-size:large">For the plugin to work you need to <strong>enable PHP extension CURL</strong>!</td></tr>';
 }
 
-    print "<tr><td width=\"20%\">".__("PushBullet API key")."</td>" . $pushbullet_sel_device;
+    print "<tr><td width=\"20%\">".__("PushBullet API key")."</td>";
 	print "<td width=\"30%\">Get you API key from your <a href=\"https://www.pushbullet.com/account\">PushBullet Account</a> page</td>";
 	print "<td class=\"prefValue\"><input dojoType=\"dijit.form.ValidationTextBox\" required=\"1\" name=\"pushbullet_api\" value=\"$pushbullet_api\"></td></tr>";
 
